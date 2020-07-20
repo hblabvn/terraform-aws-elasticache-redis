@@ -219,7 +219,7 @@ variable "snapshot_window" {
 variable "snapshot_retention_limit" {
   type        = number
   description = "The number of days for which ElastiCache will retain automatic cache cluster snapshots before deleting them."
-  default     = 0
+  default     = 7
 }
 
 variable "cluster_mode_enabled" {
