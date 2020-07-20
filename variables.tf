@@ -64,7 +64,7 @@ variable "elasticache_subnet_group_name" {
 
 variable "maintenance_window" {
   type        = string
-  default     = "wed:03:00-wed:04:00"
+  default     = "sun:22:00-sun:23:00"
   description = "Maintenance window"
 }
 
@@ -213,7 +213,7 @@ variable "replication_group_id" {
 variable "snapshot_window" {
   type        = string
   description = "The daily time range (in UTC) during which ElastiCache will begin taking a daily snapshot of your cache cluster."
-  default     = "06:30-07:30"
+  default     = "20:30-21:30"
 }
 
 variable "snapshot_retention_limit" {
